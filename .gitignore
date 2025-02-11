@@ -1,0 +1,13 @@
+# Robot Framework
+results/
+output.xml
+log.html
+report.html
+
+# IDE
+.vscode/
+
+
+# Drivers de navegador (gerados pelo webdrivermanager)
+chromedriver*
+geckodriver*
