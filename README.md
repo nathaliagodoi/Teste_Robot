@@ -22,8 +22,8 @@ Projeto de automação de testes para o frontend e backend [ServeRest](https://s
 
 ### 1. Clonar o Repositório
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/nathaliagodoi/Teste_Ambev
+cd /Teste_Ambev
 ````
 ### 2. Instalar Dependências
 ```bash
