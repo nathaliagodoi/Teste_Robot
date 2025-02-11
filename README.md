@@ -33,13 +33,26 @@ ou se já tiver o Makefile instalado
 ```bash
 make install
 ```
+## ⚙️ Install Makefile no Windows
+#### Opção 1: Usar WSL 
+1. Instale Windows Subsystem for Linux
+2. Siga os passos de instalação do Linux
+
+
+#### Opção 2: Instalar Make Manualmente (Recomendado)
+1. Baixe o GNU Make para Windows [Make Install](https://gnuwin32.sourceforge.net/packages/make.htm)
+
+2. Adicione ao PATH
+```bash
+C:\Program Files (x86)\GnuWin32\bin
+````
+3. Execute os comandos do Make no terminal Git Bash
 
 ### 3. Configurar WebDrivers (Automatizado)
 O projeto usa Webdrivermanager para gerenciar drivers automaticamente. Execute:
 ```bash
-webdrivermanager chrome firefox --linkpath /usr/local/bin
+webdrivermanager chrome firefox
 ```
-
 
 ## 📁 Estrutura do Projeto
 ```bash
@@ -85,21 +98,6 @@ make api-tests
 # Gerar relatório consolidado
 make report
 ````
-
-## ⚙️ Install Makefile no Windows
-#### Opção 1: Usar WSL 
-1. Instale Windows Subsystem for Linux
-2. Siga os passos de instalação do Linux
-
-#### Opção 2: Instalar Make Manualmente (Recomendado)
-1. Baixe o GNU Make para Windows
-
-2. Adicione ao PATH
-```bash
-C:\Program Files (x86)\GnuWin32\bin
-````
-3. Execute os comandos do Make no terminal
-
 
 ### 🤖 Robot commands
 | **Comando**        | **Descrição **               |
